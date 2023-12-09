@@ -1,0 +1,18 @@
+.col.Header-Link{
+	margin: 10px;
+}
+.left{
+	text-align: right;
+}
+.right{
+	text-align: left;
+}
+.center{
+	text-align: center;
+}
+.title{
+	text-align: center;
+}
+#Introduction{
+	margin: 50px 0px;
+}
