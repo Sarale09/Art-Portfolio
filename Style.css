@@ -9,6 +9,9 @@ a:link, a:visited {
   text-decoration: none;
   color: inherit;
 }
+i {
+	font-size: 25px;
+}
 .Header-Link{
 	margin: 10px;
 	color: #2A9D8F;
