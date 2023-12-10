@@ -11,6 +11,7 @@ a:link, a:visited {
 }
 i {
 	font-size: 25px;
+	padding: 0px 10px;
 }
 .Header-Link{
 	margin: 10px;
