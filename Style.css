@@ -13,6 +13,10 @@ i {
 	font-size: 25px;
 	padding: 0px 10px;
 }
+img{
+	height: 520px;
+	width: auto;
+}
 .Header-Link{
 	margin: 10px;
 	color: #2A9D8F;
@@ -41,6 +45,23 @@ i {
 	height: 240px;
 	padding: 26px 50px;
 }
+.grid_row{
+	height: 550px;
+}
+.transitionImages .mainPicture{
+	margin: 15px;
+	position: relative;
+}
+.transitionImages .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 0;
+	margin: 15px;
+	transition: opacity .2s;
+}
+.transitionImages:hover .hoverPicture{
+	opacity: 1;
+}
 #Introduction{
 	margin: 30px 0px;
 	background: linear-gradient(90deg, #2A9D8F 22.95%, #FF8300 55.65%, #FF6200 99.73%);
@@ -50,7 +71,6 @@ i {
 }
 #grid{
 	background-color: #264653;
-	height: 528px;
 }
 #profile{
 	background-color: #FF6200;
