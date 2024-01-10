@@ -14,8 +14,18 @@ i {
 	padding: 0px 10px;
 }
 img{
-	height: 520px;
+	height: 420px;
 	width: auto;
+}
+.row{
+	margin: 0;
+}
+.header{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: #F7BC8D;
+	z-index: 9999;
 }
 .Header-Link{
 	margin: 10px;
@@ -45,21 +55,135 @@ img{
 	height: 240px;
 	padding: 26px 50px;
 }
-.grid_row{
-	height: 550px;
-}
-.transitionImages .mainPicture{
+#portrait .mainPicture{
 	margin: 15px;
 	position: relative;
 }
-.transitionImages .hoverPicture{
+#portrait .hoverPicture{
 	position: absolute;
 	opacity: 0;
 	left: 0;
+	margin-left: 27px;
+	margin-top: 15px;
+	transition: opacity .2s;
+}
+#portrait:hover .hoverPicture{
+	opacity: 1;
+}
+#tiefling{
+	position: relative;
+}
+#tiefling .mainPicture{
+	margin: 15px;
+}
+#tiefling .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 12px;
 	margin: 15px;
 	transition: opacity .2s;
 }
-.transitionImages:hover .hoverPicture{
+#tiefling:hover .hoverPicture{
+	opacity: 1;
+}
+#sculpture{
+	position: relative;
+}
+#sculpture .mainPicture{
+	margin: 15px;
+}
+#sculpture .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 12px;
+	margin: 15px;
+	transition: opacity .2s;
+}
+#sculpture:hover .hoverPicture{
+	opacity: 1;
+}
+#animation{
+	text-align: center;
+	padding: 15px;
+}
+#fish{
+	position: relative;
+}
+#fish .mainPicture{
+	margin: 15px;
+}
+#fish .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 12px;
+	margin: 15px;
+	transition: opacity .2s;
+}
+#fish:hover .hoverPicture{
+	opacity: 1;
+}
+#boy{
+	position: relative;
+}
+#boy .mainPicture{
+	margin: 15px;
+}
+#boy .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 12px;
+	margin: 15px;
+	transition: opacity .2s;
+}
+#boy:hover .hoverPicture{
+	opacity: 1;
+}
+#sketch{
+	position: relative;
+}
+#sketch .mainPicture{
+	margin: 15px;
+}
+#sketch .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 12px;
+	margin: 15px;
+	transition: opacity .2s;
+}
+#sketch:hover .hoverPicture{
+	opacity: 1;
+}
+#astronaut{
+	position: relative;
+}
+#astronaut .mainPicture{
+	margin: 15px;
+}
+#astronaut .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 12px;
+	margin: 15px;
+	transition: opacity .2s;
+}
+#astronaut:hover .hoverPicture{
+	opacity: 1;
+}
+#fire{
+	position: relative;
+}
+#fire .mainPicture{
+	margin: 15px;
+}
+#fire .hoverPicture{
+	position: absolute;
+	opacity: 0;
+	left: 12px;
+	margin: 15px;
+	transition: opacity .2s;
+}
+#fire:hover .hoverPicture{
 	opacity: 1;
 }
 #Introduction{
@@ -68,6 +192,10 @@ img{
 	color: #F7BC8D;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+#picture img{
+	border-radius: 10px;
+	height: 300px;
 }
 #grid{
 	background-color: #264653;
