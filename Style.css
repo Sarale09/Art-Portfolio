@@ -192,6 +192,10 @@ img{
 	color: #F7BC8D;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	padding-right: 80px;
+}
+.intro-text{
+	margin-top: 30px;
 }
 #picture img{
 	border-radius: 10px;
@@ -213,9 +217,13 @@ img{
 	height: 300px;
 }
 .col-4#pictureHolder{
-	height: 400px;
+	height: 600px;
 	background-color: #264653;
+	padding: 80px;
+	text-align: center;
 }
 .col#aboutMeText{
 	background-color: #2A9D8F;
+	padding: 200px 80px;
+	font-size: 20px;
 }
